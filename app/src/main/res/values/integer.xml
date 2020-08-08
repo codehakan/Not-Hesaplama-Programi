@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+    <integer name="sifreustsinir">15</integer>
+
+    <integer name="sifrealtsinir">6</integer>
+
+    <integer name="emailustsinir">100</integer>
+
+    <integer name="kullaniciadiustsinir">100</integer>
+
+    <integer name="not_icerik_ustsinir">150</integer>
+
+    <integer name="not_baslik_ustsinir">50</integer>
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Auth.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/txt_girisyap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/hesab_n_zla_giri_yapabilirsiniz"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtbx_email2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/txt_girisyap"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:paddingLeft="25dp"
+        android:hint="@string/e_mail"
+        android:background="@drawable/radiusbttnwhite"
+        android:maxLength="@integer/emailustsinir"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/txtbx_sifre2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/txtbx_email2"
+        android:background="@drawable/radiusbttnwhite"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:paddingLeft="25dp"
+        android:hint="@string/sifre"
+        android:inputType="textPassword"
+        android:maxLength="@integer/sifreustsinir"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/bttn_girisyap2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_above="@+id/bttn_kayitol2"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/radiusbttnwhite"
+        android:text="@string/giris_yap"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/bttn_kayitol2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/radiusbttnwhite"
+        android:text="@string/kayit_ol"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>

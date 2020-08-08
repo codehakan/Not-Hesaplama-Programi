@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "1062757961771",
+    "firebase_url": "https://dersnotuhesaplama.firebaseio.com",
+    "project_id": "dersnotuhesaplama",
+    "storage_bucket": "dersnotuhesaplama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062757961771:android:63278a5f000a0f12",
+        "android_client_info": {
+          "package_name": "com.hakanbey.nothesaplama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062757961771-idpptm2d2i7pf8j35hb96lmis8skdr3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hakanbey.nothesaplama",
+            "certificate_hash": "432df2d25d6965c0b2dae2fea5c47486de4ef779"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfqSjxDBwVVje6qr2TZ5LeftuQGFox9kM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062757961771-pli8dmi2heipbcnro3o6o7gd29o11m2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ana_sayfa"
+            android:icon="@drawable/anasayfa"
+            android:title="Ana Sayfa" />
+        <item
+            android:id="@+id/lisehesaplama"
+            android:icon="@drawable/lisehesaplamalari"
+            android:title="Lise-Ortaokul Hesaplamaları" />
+        <item
+            android:id="@+id/universitehesaplama"
+            android:icon="@drawable/universitehesaplamalari"
+            android:title="Üniversite Ders Hesaplamaları"/>
+        <item
+            android:id="@+id/gecmis_hesaplamalar"
+            android:icon="@drawable/icon_gecmis"
+            android:title="Geçmiş Hesaplamalar"/>
+        <item
+            android:id="@+id/notlarim"
+            android:icon="@drawable/icon_notlarim"
+            android:title="Notlarım" />
+        <item
+            android:id="@+id/hatirlatmalaragit"
+            android:icon="@drawable/icon_hatirlatmalar"
+            android:title="Hatırlatmalar" />
+        <!--<item
+            android:id="@+id/gecmis_hesaplamalar2"
+            android:icon="@drawable/gecmishesaplamalar"
+            android:title="Geçmiş Hesaplamalar(TEST)" />-->
+
+
+    </group>
+
+    <item android:title="İletişim">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Paylaş" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="E-Posta Gönder" />
+        </menu>
+    </item>
+
+</menu>

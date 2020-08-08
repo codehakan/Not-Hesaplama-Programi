@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Ders Notu Hesaplama</string>
+    <string name="app_name_lise">Lise Ders Notu Hesaplama</string>
+    <string name="app_name_liseayar">Lise Ders Notu Hesaplama</string>
+    <string name="app_name_uniayar">Üniversite Ders Notu Hesaplama</string>
+    <string name="app_name_gecmis">Geçmiş Hesaplamalar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Not Hesaplama Programı Menüsü</string>
+    <string name="nav_header_subtitle">Ortalamam ne kadar sorusuna son !</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5232718676515229/4485618658</string>
+    <string name="hosgeldiniz">Yükleniyor ...</string>
+    <string name="title_activity_lisehesaplamalari">lisehesaplamalari</string>
+    <string name="tab_text_1">Yazılı</string>
+    <string name="tab_text_2">Yazılı + Sözlü</string>
+    <string name="tab_text_3">Yz.+Szl.+Perf.</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="ayarlarbilgisi">Vize notunuzun % kaçının alındığını girmelisiniz. Aynı şekilde Final sınav notunuzun % kaçının alındığını da girmelisiniz. Eğer Final notunuzda almanız gereken minimum not var ise belirtin. Yok ise 0 yazabilirsiniz. Ortalama kısmına ise Vize ve Final notlarınızın %\'si alındıktan sonra toplandığında asgari bir sınır var ise onu belirtmelisiniz. Böyle bir kural yok ise 0 yazabilirsiniz.</string>
+    <string name="title_activity_lisehesaplamalariana">Lise Ders Notu Hesaplama</string>
+    <string name="title_activity_gecmishesaplamalarana">gecmishesaplamalarana</string>
+    <string name="ho_geldiniz">Hoşgeldiniz</string>
+    <string name="ders_notu_hesaplama_arac">Ders Notu Hesaplama Aracı</string>
+    <string name="kay_t_ol">Kayıt Ol</string>
+    <string name="giri_yap">Giriş Yap</string>
+
+
+    <string name="yeni_hesap_olustur">Yeni Hesap Oluştur</string>
+    <string name="hesabim_var">Hesabım Var</string>
+    <string name="kayit_ol">Kayıt Ol</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="kullanici_ad">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="sifre_tekrar">Şifre Tekrar</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="hesab_n_zla_giri_yapabilirsiniz">Hesabınızla Giriş Yapabilirsiniz</string>
+    <string name="yeni_hesap_olu_turabilirsiniz">Yeni Hesap Oluşturabilirsiniz</string>
+    <string name="k_yap">Çıkış Yap</string>
+    <string name="lise">Lise</string>
+    <string name="niversite">Üniversite</string>
+
+
+</resources>

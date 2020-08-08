@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/notimage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/icon_notlarim" />
+
+    <TextView
+        android:id="@+id/notbaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/notsil"
+        android:text="Not Başlığı"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_toEndOf="@+id/notimage"
+        android:layout_toRightOf="@+id/notimage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toLeftOf="@id/notsil"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/noticerik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/notsil"
+        android:layout_marginEnd="20dp"
+        android:text="Not İçeriği"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_toEndOf="@+id/notimage"
+        android:layout_toRightOf="@+id/notimage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/notbaslik"
+        android:layout_toLeftOf="@id/notsil" />
+
+    <ImageButton
+        android:id="@+id/notsil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_delete"
+        android:background="@android:color/white"/>
+
+
+</RelativeLayout>
